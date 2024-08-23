@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese un nombre"><br><br>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Ingrese un apellido"><br><br>
+        <label>Sexo:</label>
+        <input type="radio" id="mujer" name="sexo" value="mujer">
+        <label for="mujer">Mujer</label>
+        <input type="radio" id="hombre" name="sexo" value="hombre">
+        <label for="hombre">Hombre</label><br><br>
+
+        <label for="nivel">Nivel de estudios:</label>
+        <select id="nivel" name="nivel">
+            <option value="primaria">Primaria</option>
+            <option value="secundaria">Secundaria</option>
+            <option value="universidad">Universidad</option>
+        </select><br><br>
+        <label for="usuario">Usuario:</label>
+        <input type="text" id="usuario" name="usuario" placeholder="Ingrese un usuario"><br><br>
+
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" name="contrasena" placeholder="Ingrese una contraseña"><br><br>
+
+        <label for="confirmacion">Confirmación de contraseña:</label>
+        <input type="password" id="confirmacion" name="confirmacion" placeholder="Confirme su contraseña"><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

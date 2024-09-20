@@ -1,0 +1,211 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+.contenedor-header {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+header h1 .txtRojo {
+    color: #ff3333;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.redes a {
+    color: white;
+    margin-left: 10px;
+}
+
+#icono-nav {
+    display: none;
+}
+
+
+.inicio {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 1, 3, 0.5), rgba(0, 0, 0, 0.7)), url('../../index/fondo.jpg');
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;*/
+}
+
+.inicio::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); 
+    z-index: 1;
+}
+
+.contenido-seccion {
+    z-index: 2; 
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h2 span.txtRojo {
+    color: #ff3333;
+}
+
+p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.btn-mas {
+    margin-top: 20px;
+    color: white;
+    font-size: 2rem;
+}
+
+.opciones {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.opcion {
+    margin: 0 10px;
+    font-size: 1.2rem;
+}
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .txtRojo {
+    color: #ff3333;
+}
+
+footer .redes a {
+    margin: 0 10px;
+    color: #fff;
+}
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #icono-nav {
+        display: block;
+        color: white;
+        font-size: 1.8rem;
+        cursor: pointer;
+    }
+
+    .inicio h2 {
+        font-size: 3rem;
+    }
+
+    .opciones {
+        flex-direction: column;
+    }
+}
+.col img{
+width: 80%;
+display: block;
+margin: auto;
+margin-bottom: 50px;
+}
+.col{
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-bottom: 50 px;
+}
+.contenedor-titulo{
+    color: #ff1133;
+    font-weight: bold;
+    display: block;
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+    margin-left:30 px ;
+}
+.contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 100px 0;   
+}
+.comodidades{
+    max-width: 1100px;
+    margin: auto;
+    background-color: #dde1e9;
+    padding: 100px 20px;
+    display: flex;
+    align-items: center;
+}
+.p-especial{
+font-weight: bold;
+}
+.col{
+    font-weight: bold;
+    color: #ff1133;
+}
+.galeria{
+    color: #fff; 
+    background: linear-gradient(rgba(0, 14, 41, 0.6), rgba(0, 7, 78, 0.7)), url('../../index/f1.jpg');
+     background: linear-gradient(rgba(0, 14, 41, 0.6), rgba(0, 7, 78, 0.7)), url('../../index/f2.jpg');
+     background: linear-gradient(rgba(0, 14, 41, 0.6), rgba(0, 7, 78, 0.7)), url('../../index/f3.jpg');
+     background: linear-gradient(rgba(0, 14, 41, 0.6), rgba(0, 7, 78, 0.7)), url('../../index/f4.jpg');
+     background: linear-gradient(rgba(0, 14, 41, 0.6), rgba(0, 7, 78, 0.7)), url('../../index/f5.jpg');
+     background: linear-gradient(rgba(0, 14, 41, 0.6), rgba(0, 0, 7, 78.7)), url('../../index/f6.jpg');
+     background-size: cover;
+     background-position: center center;
+     padding: 100px 0;
+}
+.equipo{
+display: flex;
+align-items: center;
+width: fit-content;
+margin: auto;
+}
+.fila-datos{
+display: flex;
+
+
+}

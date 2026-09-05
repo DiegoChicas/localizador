@@ -1,0 +1,33 @@
+UNIVERSIDAD TECNOLOGICA DE EL SALVADOR
+INTEGRANTES
+Diego Alberto Chicas Martinez 25-1005-2023
+Miguel Angel Rivera Lopez 25-0948-2023
+Jose David Grande Lorenzana 25-4832-2022 
+DESCRIPCION DEL PROYECTO
+El proyecto consiste en una aplicación desarrollada en Java utilizando Maven, cuyo objetivo es administrar un inventario de vehículos. Para guardar la información se utiliza una base de datos H2,
+que funciona de manera embebida en el proyecto. La conexión entre Java y la base de datos se realiza mediante JDBC (java.sql). El programa está organizado por diferentes capas 
+para mantener el código ordenado y separar las funciones de cada parte. También se utiliza el patrón DAO, que permite manejar las operaciones de la base de datos desde una clase específica.
+La entidad principal del proyecto es Vehiculo, la cual contiene los datos básicos de cada vehículo:
+id (int): Identificador único de cada vehículo y llave primaria.
+marca (String): Marca del vehículo, por ejemplo Toyota u Honda.
+modelo (String): Modelo correspondiente al vehículo, como Corolla o Civic.
+anio (int): Año en que fue fabricado el vehículo.
+ORGANIZACION DEL PROYECTO
+El proyecto se encuentra organizado dentro del paquete principal:
+sv.edu.utec
+A partir de este paquete se encuentran las diferentes clases:
+-sv.edu.utec.modelo.Vehiculo
+-sv.edu.utec.datos.ConexionDB
+-sv.edu.utec.datos.VehiculoDAO
+-sv.edu.utec.Main
+OPERACIONES CRUD
+El sistema permite realizar las operaciones principales sobre los vehículos:
+-CREAR LA TABLA
+-INSERTAR
+-LISTAR
+-ACTUALIZAR
+-ELIMINAR
+USO DE LA IA
+Durante la realización del proyecto se consultaron herramientas como ChatGPT y Gemini de manera complementaria.
+Estas herramientas se utilizaron principalmente para consultar dudas puntuales relacionadas con la sintaxis de Java, JDBC y la forma de documentar algunos elementos del proyecto.
+La IA se utilizó principalmente como apoyo para resolver dudas específicas, mientras que el funcionamiento y la implementación del proyecto fueron revisados por los integrantes del equipo.
